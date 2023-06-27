@@ -1,3 +1,6 @@
+* Add to bookmark browser
+
+```js
 javascript:(function () { 
     var script =  document.createElement('script');
     script.src="//cdn.jsdelivr.net/npm/eruda"; 
@@ -6,3 +9,4 @@ javascript:(function () {
         eruda.init() 
     } 
 })();
+```
